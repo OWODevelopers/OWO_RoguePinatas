@@ -1,9 +1,6 @@
 # OWO_RoguePinatas
-OWO integration for Rogue Piñatas: VRmageddon. This mod is a port of [Dteyn/RoguePinatas_bHaptics](https://github.com/Dteyn/RoguePinatas_bHaptics) (MIT): it keeps the original game hooks and replaces the bHaptics backend with OWO.
-
+OWO integration for Rogue Piñatas: VRmageddon.
 *Compatible with the Steam version of Rogue Piñatas: VRmageddon (build 19155164, game version 1.1.0) and BepInEx 5.4.23.2.*
-
-> **Preview release.** The mod loads in the real game and has been tested with an OWO Skin, but some sensations have not been reviewed on hardware yet. Feedback is welcome in [Issues](../../issues).
 
 ## What is OWO?
 OWO Skin is a haptic technology that lets you feel everything that happens in a video game.
@@ -68,10 +65,5 @@ If the game does not appear in MyOWO (VPN, or a network that blocks broadcast), 
 
 ## Uninstall
 Delete `BepInEx\plugins\RoguePinatas_OWO\` and `BepInEx\config\RoguePinatas_OWO.cfg` from the game folder. To remove BepInEx as well, also delete `BepInEx\`, `winhttp.dll`, `doorstop_config.ini` and `.doorstop_version`, or verify the game files in Steam.
-
-## Credits
-- Original bHaptics mod and game hooks: [Dteyn](https://github.com/Dteyn/RoguePinatas_bHaptics), MIT License.
-- OWO SDK (`OWO.dll`): OWO, MIT License.
-- [BepInEx](https://github.com/BepInEx/BepInEx) and [Harmony](https://github.com/pardeike/Harmony).
 
 The licence texts ship inside the release zip, in `BepInEx\plugins\RoguePinatas_OWO\licenses\` and `THIRD_PARTY_NOTICES.txt`.
