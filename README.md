@@ -20,7 +20,7 @@ Want to get an OWO Suit? [Look here](https://owogame.com/shop/).
 1. **Install BepInEx.** Download `BepInEx_win_x64_5.4.23.2.zip` and extract it into the game folder, so that `BepInEx`, `winhttp.dll` and `doorstop_config.ini` end up next to the game's `.exe`.
    To find the game folder: in Steam, right-click the game → *Manage* → *Browse local files*.
 2. **Run the game once** and close it. BepInEx creates its folders (`BepInEx\plugins`, `BepInEx\config`, …) on this first run.
-3. **Download the mod** from the [latest release](../../releases/latest): `RoguePinatas_OWO_v1.0.4.zip`.
+3. **Download the mod** from [Releases](../../releases): `RoguePinatas_OWO_v1.0.4.zip` (the newest version at the top).
 4. **Extract the mod zip into the game folder** (the same folder as in step 1) and accept merging the `BepInEx` folder. You should end up with:
    ```
    <game folder>\BepInEx\plugins\RoguePinatas_OWO\RoguePinatas_OWO.dll
